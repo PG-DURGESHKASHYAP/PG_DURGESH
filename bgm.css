@@ -1,0 +1,79 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bg{
+   width: 100%;
+   height: 100vh;
+   background-image: url("image/6134335359350322833_121.jpg");
+   background-size: cover;
+   overflow: auto;
+   float: left;
+}
+.top {
+   width: 100%;
+   height: 80px;
+   background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+   border-bottom: 1px solid white;
+}
+.top a{
+   float: left;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 30px;
+   padding: 20px;
+   border-right: 3px solid wheat;
+   transition: all .5s;
+   text-align: center;
+}
+.top a:last-child{
+   border-right: none;
+}
+.top a:hover{
+   color: rgb(255, 230, 0);
+   background-color: rgb(11, 160, 56);
+}
+.top h1{
+   float: left;
+   color: aliceblue;
+   font-size: 80px;
+   padding: 0px 0px 0px 380px;
+   background: linear-gradient(rgb(255, 255, 255),rgb(0,0,0));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.ffvid{
+   width: 55%;
+   height: 700px;
+   margin: 30px;
+   float: left;
+   overflow: auto;
+   background-image:linear-gradient(rgba(255, 255, 255, 0.271),rgba(255, 255, 255, 0.426)) ;
+}
+.art{
+   width: 35%;
+   height: 800px;
+   margin: 30px 0px 0px 70px;
+   float: left;
+   background-image:linear-gradient(rgba(255, 255, 255, 0.271),rgba(255, 255, 255, 0.426)) ;
+}
+.ffvid h1{
+   text-align: center;
+   padding-top: 0px;
+   font-size: 3em;
+   color: rgb(85, 0, 0);
+   border-bottom: 3px solid rgb(86, 0, 0);
+   border 
+} 
+.ffvid video{
+   border: 3px solid red;
+   width: 480px;
+   height: ;
+   float: left;
+}
+
+
+ 

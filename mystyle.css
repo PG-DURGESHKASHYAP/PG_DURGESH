@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body,html{
+    width: 100%;
+    height: 100%;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ .main{
+  width: 100%;
+  height: 100%;
+ position: fixed;
+
+ }
+ .top{
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  text-align: space-between;
+
+ }
+ .top h1{
+padding: .7vw 0px;
+  font-size: 3.5vw;
+  width: 600;
+  color: #000;
+  }
+.top h1 span{
+  color: rgba(173, 11, 52, 0.897);
+}
+.top i {
+  font-size: 2vw;
+  padding: 20px 20px 0px 20px;
+}
+.top h1 i{
+  font-size: 3.5vw;
+  color: rgba(173, 11, 52, 0.897);
+}
+
+.left{
+  width: 45%;
+  height: calc(100vh - 6vw);
+  margin-left: 1vw;
+  padding: 4vw;
+  float: left;
+  box-shadow: -10px 10px 10px 0px red;
+}
+.left h1{
+  font-size: 4vw;
+  margin-bottom: 2vw;
+  padding-left: 1vw ;
+  border-left: 4vw solid greenyellow ;
+  padding-right: 0 ;
+  border-right: 4vw solid rgb(255, 47, 47) ;
+  border-radius: 50%;
+}
+.left h1 i{
+  font-size: 3.5vw;
+  padding-left: 5px ;
+}
+p{
+  font-size: 1.7vw;
+  margin-bottom: 2vw;
+}
+
+.left button{
+  font-size: 2vw;
+  cursor: unset;
+  margin-top: 2vw;
+  padding: 0vw 1vw;
+  border-radius: 2vw;
+  transition: all .5s;
+}
+.left button i{
+  padding-left:10px ;
+}
+
+.right {
+  width: 53%;
+  height: calc(100vh - 6vw);
+  padding: 4vw;
+  float: left;
+  box-shadow: 10px 10px 10px 0px greenyellow;
+}
+
+.right h3{
+  font-size: 2vw;
+  padding: 0px 0px 0px 0px;
+  color: rgba(255, 34, 0, 0.999);
+  border-bottom: 0.3vw solid rgba(255, 34, 0, 0.999);
+}
+.right img{
+   width: 38vw;
+   
+}
+a{
+  text-decoration: none;
+}
+
+  @media (max-width:600px) {
+    .top{
+      height: 10vw;
+    }
+    .top h1{
+      font-size: 8vw;
+}
+   .left{
+    width: 100%;
+    margin-left: 3vw;
+    height: calc(50% - 10vw);
+    padding: 10vw;
+   } 
+   .left h1{
+    font-size: 6vw;
+    margin-right: 30vw;
+   }
+   .top h1 i{
+    display: none;
+    word-wrap: wrap;
+   }
+  .left h1 i{
+    font-size: 5vw;
+  }
+
+   p{
+    margin-top: 5vw;
+    font-size: 4vw;
+   }
+ 
+   .left button{
+    font-size: 4vw;
+    margin-top: 7vw;
+
+   }
+
+   .left button:hover{
+    color: aliceblue;
+   background-color: red;
+  }
+  
+  .right {
+    width: 100%;
+    height: calc(100vh - (5vw + 50vh));
+    margin-left: -3vw;
+    box-shadow: 10px 10px 10px 0px greenyellow;;
+  }
+   .right img{
+    width: 70vw;
+   }
+ .top i{
+   font-size: 20px;
+   padding: 10px 10px;
+ }
+ .right h3{
+  font-size: 4vw;
+  padding: 20px 0px 0px 20px;
+  border-bottom: .5vw solid rgba(255, 34, 0, 0.999);
+ }  
+  }
+
+
